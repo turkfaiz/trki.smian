@@ -38,7 +38,7 @@ async function seedBanners(env) {
   await env.DB.batch(st);
 }
 // بنر قروب جوال السميان: يُضاف مرة واحدة في أول القائمة، ويُدار بعدها من لوحة الإدخال
-const WA_JOIN_LINK = "https://wa.me/966504548911?text=" + encodeURIComponent("أرغب بالانضمام لجوال السميان، وهذا اسمي: ");
+const WA_JOIN_LINK = "https://wa.me/966504548911?text=" + encodeURIComponent("أرغب بالانضمام لجوال السميان، وهذا اسمي الثلاثي لتسجيل رقمي: ");
 const JOIN_V = "2"; // رفع هذا الرقم يحدّث صورة بنر القروب في القاعدة مرة واحدة
 async function seedJoinBanner(env) {
   const f = await env.DB.prepare("SELECT v FROM meta WHERE k='join_banner_seeded'").first();
