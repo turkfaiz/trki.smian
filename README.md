@@ -1,0 +1,1 @@
+# trki.smian
