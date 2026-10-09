@@ -1,0 +1,8 @@
+{
+  "name": "alsemyan",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    { "binding": "DB", "database_name": "alsemyan-weddings", "database_id": "1b10aca3-68ec-40e9-9c8e-97df8141a279" }
+  ]
+}
